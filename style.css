@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popppins', sans-serif;
+}
+.logo img{
+    width: 50px;
+}
+.logo{
+    display: flex;
+}
+body{
+    min-height: 100vh;
+    background: url(lolo/jj.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fcfcfc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.1);
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+.navbar a.active{
+    color: rgb(197, 174, 120);
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: rgb(2, 2, 2);
+    display: block;
+    text-decoration: none;
+}
+header .navbar ul li a:hover{
+    transition: all 0.4s ease 0s;
+    color: rgb(197, 174, 120);
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+header .navbar ul li:hover ul{
+    display: initial;
+}
+.product {
+    list-style-type: none;
+    display: none;
+}
+.navbar li:nth-child(2):hover .product{
+    display: block;
+}
+.product1 {
+    list-style-type: none;
+    display: none;
+}
+.navbar li:nth-child(2):hover .product1{
+    display: block;
+}
+.product2 {
+    list-style-type: none;
+    display: none;
+}
+.navbar li:nth-child(2):hover .product2{
+    display: block;
+}
+
+
+
+.text-box{
+    color: #532d2d;
+    position: absolute;
+    bottom: 20%;
+    left: 70px;
+}
+
+.text-box p{
+    font-size: 50px;
+    font-weight: 400;
+}
+.text-box h1{
+    font-size: 110px;
+    line-height: 110px;
+    margin-left: -10px;
+}
+.text-box h2{
+    font-size: 30px;
+    font-weight: 500;
+}

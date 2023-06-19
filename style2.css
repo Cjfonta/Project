@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+.logo img{
+    width: 50px;
+}
+.logo{
+    display: flex;
+}
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+            background:  #111322;
+            color: #fff;
+            margin:auto;
+            overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.1);
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    
+
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: rgb(2, 2, 2);
+    display: block;
+    text-decoration: none;
+}
+header .navbar ul li a:hover{
+    transition: all 0.4s ease 0s;
+    color: rgb(197, 174, 120);
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+header .navbar ul li:hover ul{
+    display: initial;
+}
+
+.about-container{
+    width: 1600px;
+    height: 908px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.swiper{
+    width: 45%;
+    height: min-content;
+}
+.swiper-slide img{
+    width: 70%;
+    padding-left: 40px;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+    margin: center;
+}
+.swiper-button-prev{
+    padding-left: -6px;
+}
+.swiper-button-next{
+    padding-right: 177px;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+    margin: 10px 10px 10px 10px;
+}
+
+#page{
+    min-height: 100vh !important;
+    height: 100% !important;
+}
+
+.experince-header {
+    position: relative;
+    font-size: 42px;
+    margin: 40px;
+    padding-left: 20px;
+
+}
+.experince-header-set{
+    padding-right: 20px;
+    background: #111322;
+}
+
+.experince-alt {
+    color:#6c6f8a ;
+    margin: 50px 0;
+    font-size: 22px;
+    width: 70%;
+}
+
+.experince-header::before{
+    content: "";
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    background: #272a47;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+}
+
+.pageControl{
+    height: 25px;
+}
+
+
+
+.about-me-section{
+    padding: 20px 0;
+    width: 50%;
+    color: #878aa1;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+
+
+.about-text{
+    margin-bottom: 35px;
+    margin-top: 35px;
+
+}
+
+.skills-bar-about{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 32px;
+
+}
+
+
+.experince-header::before{
+    content: "";
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    background: #272a47;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+

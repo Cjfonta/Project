@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+.logo img{
+    width: 50px;
+}
+.logo{
+    display: flex;
+}
+body{
+    min-height: 300vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+        background:  #111322;
+        color: #fff;
+        min-width: 300px;
+        max-width:1400px;
+        margin:auto;
+        overflow-x: hidden;
+        font-family: 'Cabin Condensed', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.1);
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    
+
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: rgb(2, 2, 2);
+    display: block;
+    text-decoration: none;
+}
+header .navbar ul li a:hover{
+    transition: all 0.4s ease 0s;
+    color: rgb(197, 174, 120);
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+header .navbar ul li:hover ul{
+    display: initial;
+}
+
+.div style{
+    position: relative;
+    display: none;
+    bottom: 50px;
+}
+
+
